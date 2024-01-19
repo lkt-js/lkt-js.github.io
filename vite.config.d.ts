@@ -7,14 +7,11 @@ declare namespace _default {
         };
     }
     namespace build {
-        export namespace lib {
-            const entry: string;
-            const name: string;
-            function fileName(format: any): string;
-        }
-        export { outDir };
-        export const minify: boolean;
-        export namespace rollupOptions {
+        const minify: boolean;
+        namespace rollupOptions {
+            namespace input {
+                const main: string;
+            }
             const external: string[];
             namespace output {
                 const globals: {
@@ -42,4 +39,3 @@ declare namespace _default {
     }
 }
 export default _default;
-declare const outDir: string;
