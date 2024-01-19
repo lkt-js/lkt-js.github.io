@@ -1,0 +1,103 @@
+@import "config";
+
+@import "lkt-grid-layout/layout/default.css";
+
+body {
+  background: #fdf6ec;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.main-header {
+  background: #eca741;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  padding: var(--gap);
+  max-width: 960px;
+  margin: auto;
+  width: 100%;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 300;
+  font-style: italic;
+}
+
+a {
+  color: #eca741;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #eca741;
+}
+
+.intro {
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.lkt-doc-block {
+  margin-bottom: 30px;
+}
+
+.lkt-doc-block-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lkt-doc-block-icon {
+  background: #eca741;
+  color: #ffffff;
+  font-size: 25px;
+  border-radius: 100%;
+  padding: 15px;
+}
+
+.lkt-doc-block-item {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 7px;
+  border: 1px solid #ffffff;
+  transition: all linear 100ms;
+  font-size: 16px;
+}
+
+.lkt-doc-block-item:hover {
+  border: 1px solid #eca741;
+  box-shadow: 1px 1px 8px 0 #eca741;
+}
+
+.lkt-doc-block-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #eca741;
+  text-decoration: none;
+}
+
+.lkt-doc-block-item i {
+  color: #eca741;
+  background: #ffffff;
+  font-size: 25px;
+  border-radius: 100%;
+  padding: 15px;
+}

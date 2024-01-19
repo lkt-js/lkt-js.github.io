@@ -1,0 +1,10 @@
+
+.icon-calendar:before { content: '\e800'; } /* '' */
+.icon-language:before { content: '\e801'; } /* '' */
+.icon-database:before { content: '\e802'; } /* '' */
+.icon-wrench:before { content: '\e803'; } /* '' */
+.icon-ok:before { content: '\e804'; } /* '' */
+.icon-data-science:before { content: '\f016'; } /* '' */
+.icon-doc-text:before { content: '\f0f6'; } /* '' */
+.icon-object-group:before { content: '\f247'; } /* '' */
+.icon-user-o:before { content: '\f2c0'; } /* '' */
