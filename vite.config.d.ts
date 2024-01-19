@@ -12,7 +12,7 @@ declare namespace _default {
             namespace input {
                 const main: string;
             }
-            const external: string[];
+            const external: never[];
             namespace output {
                 const globals: {
                     vue: string;
