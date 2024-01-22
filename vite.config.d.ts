@@ -7,15 +7,12 @@ declare namespace _default {
         };
     }
     namespace build {
-        export namespace lib {
-            const entry: string;
-            const name: string;
-            function fileName(format: any): string;
-        }
-        export { outDir };
-        export const minify: boolean;
-        export namespace rollupOptions {
-            const external: string[];
+        const minify: boolean;
+        namespace rollupOptions {
+            namespace input {
+                const main: string;
+            }
+            const external: never[];
             namespace output {
                 const globals: {
                     vue: string;
@@ -42,4 +39,3 @@ declare namespace _default {
     }
 }
 export default _default;
-declare const outDir: string;
